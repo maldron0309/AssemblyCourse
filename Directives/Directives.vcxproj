@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c762dd50-e52a-4d4f-bab0-99dcc355a1c3}</ProjectGuid>
-    <RootNamespace>Register_MOV</RootNamespace>
+    <ProjectGuid>{14ba43d7-a599-4d8a-bca2-a69e231c2cae}</ProjectGuid>
+    <RootNamespace>Directives</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -128,10 +128,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <MASM Include="registers+MOV.asm" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="main.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

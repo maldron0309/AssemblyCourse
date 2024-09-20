@@ -4,6 +4,6 @@
     <MASM Include="registers+MOV.asm" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="main.c" />
   </ItemGroup>
 </Project>

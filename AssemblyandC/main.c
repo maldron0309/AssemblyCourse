@@ -6,7 +6,7 @@
 
 #ifdef ASSEMBLY
 
-extern "C" int Sum(int a, int b);
+int Sum(int a, int b);
 
 #else
 

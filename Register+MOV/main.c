@@ -1,9 +1,6 @@
 #include "stdio.h"
 
-
-extern "C" void Example();
-
-
+void Example();
 
 int main()
 {
