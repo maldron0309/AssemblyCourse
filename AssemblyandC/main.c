@@ -1,9 +1,5 @@
 #include "stdio.h"
 
-
-#define ASSEMBLY
-
-
 #ifdef ASSEMBLY
 
 int Sum(int a, int b);
@@ -12,22 +8,19 @@ int Sum(int a, int b);
 
 int Sum(int a, int b)
 {
-    return a + b;
+	return a + b;
 }
-
 #endif
-
-
 
 int main()
 {
-    int a, b, sum;
+	int a = 0, b = 0, sum = 0;
 
-    a = 3;
-    b = 2;
-    sum = Sum(a, b);
+	a = 5;
+	b = 5;
+	sum = Sum(a, b);
 
-    printf("The sum is %d\n", sum);
+	printf("The sum is %d\n", sum);
 
-    return 0;
+	return 0;
 }
